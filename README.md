@@ -104,13 +104,13 @@ The scripts listed below modify source code to use several parameters provided b
 ## Acknowledgments
 
 - We dedicate this work to the memory of Dr. Jason Ching, whose groundbreaking contributions and inspiring vision laid the foundation for this research. His legacy continues to guide and inspire us. 
-- This work used the [ARCHER2 UK National Supercomputing Service](https://www.archer2.ac.uk) and [JASMIN, the UK’s collaborative data analysis environment](https://www.jasmin.ac.uk/). This work was supported by the Natural Environment Research Council, UK.
+- This work used the [ARCHER2 UK National Supercomputing Service](https://www.archer2.ac.uk) and [JASMIN, the UK’s collaborative data analysis environment](https://www.jasmin.ac.uk/). This work was supported by the U.K. Natural Environment Research Council.
 - The authors would like to acknowledge the assistance of Research IT and the use of the HPC Pool and Computational Shared Facility at The University of Manchester. The support of [Dr. Douglas Lowe](https://github.com/douglowe) and Christopher Grave from Research IT at The University of Manchester is gratefully acknowledged. 
 - We thank Prof. David M. Schultz for his comments on an earlier version of the manuscript.
 - Additionally, we appreciate the assistance of Dr. Congyuan Li at the National University of Defense Technology in China.
 - [Z. Z.](https://github.com/zhonghua-zheng) appreciates the support provided by the academic start-up funds from the Department of Earth and Environmental Sciences at The University of Manchester.
-- [Y. S.](https://github.com/YuanSun-UoM) is supported by the PhD studentship of Zhonghua Zheng's academic start-up funds.
+- [Y. S.](https://github.com/YuanSun-UoM) is supported by the PhD studentship of [Z.Z.](https://github.com/zhonghua-zheng)'s academic start-up funds.
 - Contributions from [K. W. O.](https://staff.ucar.edu/users/oleson) are based upon work supported by the NSF National Center for Atmospheric Research, which is a major facility sponsored by the U.S. National Science Foundation under Cooperative Agreement No. 1852977.
 - Contributions from [M. D.](https://github.com/matthiasdemuzere) are supported by the European Union’s HORIZON Research and Innovation Actions under grant agreement No. 101137851, project [CARMINE (Climate-Resilient Development Pathways in Metropolitan Regions of Europe)](https://www.carmine-project.eu/).
-- L. Z. acknowledges the support of the US National Science Foundation (CAREER award grant no. 2145362).
+- L. Z. acknowledges the support of the U.S. National Science Foundation (CAREER award grant no. 2145362).
 - The authors declare no conflict of interest.
