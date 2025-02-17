@@ -1,5 +1,5 @@
 # code_CESM_LCZ
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14883318.svg)](https://doi.org/10.5281/zenodo.14883318)
 ## Introduction
 
 This repository is supplementary to the manuscript "**Enhancing Global-Scale Urban Land Cover Representation Using Local Climate Zones in the Community Earth System Model**".
