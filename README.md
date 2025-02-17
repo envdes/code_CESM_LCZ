@@ -109,7 +109,7 @@ The scripts listed below modify source code to use several parameters provided b
 - We thank Prof. David M. Schultz for his comments on an earlier version of the manuscript.
 - Additionally, we appreciate the assistance of Dr. Congyuan Li at the National University of Defense Technology in China.
 - [Z. Z.](https://github.com/zhonghua-zheng) appreciates the support provided by the academic start-up funds from the Department of Earth and Environmental Sciences at The University of Manchester.
-- [Y. S.](https://github.com/YuanSun-UoM) is supported by the PhD studentship of [Z.Z.](https://github.com/zhonghua-zheng)'s academic start-up funds.
+- [Y. S.](https://github.com/YuanSun-UoM) is supported by the PhD studentship of [Z. Z.](https://github.com/zhonghua-zheng)'s academic start-up funds.
 - Contributions from [K. W. O.](https://staff.ucar.edu/users/oleson) are based upon work supported by the NSF National Center for Atmospheric Research, which is a major facility sponsored by the U.S. National Science Foundation under Cooperative Agreement No. 1852977.
 - Contributions from [M. D.](https://github.com/matthiasdemuzere) are supported by the European Union’s HORIZON Research and Innovation Actions under grant agreement No. 101137851, project [CARMINE (Climate-Resilient Development Pathways in Metropolitan Regions of Europe)](https://www.carmine-project.eu/).
 - L. Z. acknowledges the support of the U.S. National Science Foundation (CAREER award grant no. 2145362).
