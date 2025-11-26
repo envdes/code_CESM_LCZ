@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14883318.svg)](https://doi.org/10.5281/zenodo.14883318)
 ## Introduction
 
-This repository is supplementary to the paper "Sun, Y., Oleson, K. W., Zhao, L., Mills, G., He, C., Demuzere, M., Topping, D. O., Zhang, N., & Zheng, Z. (2025). Enhancing Global-Scale Urban Land Cover Representation Using Local Climate Zones in the Community Earth System Model. *Journal of Advances in Modeling Earth Systems*, 17(11), e2025MS004934. [https://doi.org/10.1029/2025MS004934](https://doi.org/10.1029/2025MS004934)".
+This repository is supplementary to the paper "Sun, Y., Oleson, K. W., Zhao, L., Mills, G., He, C., Demuzere, M., Topping, D. O., Zhang, N., & Zheng, Z. (2025). Enhancing Global-Scale Urban Land Cover Representation Using Local Climate Zones in the Community Earth System Model. *Journal of Advances in Modeling Earth Systems*, 17(11), e2025MS004934. [https://doi.org/10.1029/2025MS004934](https://doi.org/10.1029/2025MS004934)". A related dataset is open access at: [https://doi.org/10.6084/m9.figshare.30665966](https://doi.org/10.6084/m9.figshare.30665966).
 
 The objectives of this project are:
 
