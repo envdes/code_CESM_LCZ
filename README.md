@@ -6,8 +6,8 @@ This repository is supplementary to the paper "Sun, Y., Oleson, K. W., Zhao, L.,
 
 The objectives of this project are:
 
-- Modify the CESM source code to incorporate built LCZ representation in a modular way;
-- Validate model performance with the new LCZ scheme using [Urban-PLUMBER](https://urban-plumber.github.io/) data;
+- Modify the CESM source code to incorporate a built LCZ representation in a modular way;
+- Validate model performance with the new LCZ scheme using the [Urban-PLUMBER](https://urban-plumber.github.io/) dataset;
 - Examine model sensitivity to LCZ urban parameters.
 
 
@@ -16,7 +16,7 @@ The objectives of this project are:
 
 ### [1_code_modification](./1_code_modification)
 
-The standard source code comes from [CTSM](https://github.com/ESCOMP/CTSM), with the release tag: [ctsm5.2.005](https://github.com/ESCOMP/CTSM/tree/ctsm5.2.005). See modified code lines labeled with **!YS**.
+The standard source code comes from [CTSM](https://github.com/ESCOMP/CTSM), with the release tag: [ctsm5.1.dev166](https://github.com/ESCOMP/CTSM/tree/ctsm5.1.dev166). See modified code lines labeled with **!YS**.
 
 - Add a new command `use_lcz,` to the namelist for case build:
   - [‎bld/namelist_files/namelist_definition_ctsm.xml](./1_code_modification/bld/namelist_files/namelist_definition_ctsm.xml)
@@ -61,7 +61,7 @@ The scripts listed below are used for processing simulation output and visualiza
 
 ## [3_illustration](./3_illustration)
 
-The figures listed below are used to illustrate details of implementing built LCZ in CLMU.
+The figures listed below are used to illustrate details of implementing built LCZs in CLMU.
 
 | Subject                                                      | Visualization                                   |
 | ------------------------------------------------------------ | ----------------------------------------------- |
@@ -94,12 +94,12 @@ The scripts listed below are used to generate LCZ-based land surface inputs for 
 
 ## [6_sourcemods](./6_sourcemods)
 
-- [SourceMods_for_UrbanPLUMBER](./6_sourcemods/SourceMods_for_UrbanPLUMBER/): modified CLM5.0 code for participating Urban-PLUMBER.
-- [SourceMods_def](./6_sourcemods/SourceMods_def): modified CTSM5.2.X code for default surface input.
-- [SourceMods_lcz](./6_sourcemods/SourceMods_lcz): modified CTSM5.2.X code for LCZ-based surface input.
-- [SourceMods_roughness_sensitivity_S1](./6_sourcemods/SourceMods_roughness_sensitivity_S1/): modified CTSM5.2.X code for [CLMU’s default method of roughness length calculation](https://github.com/ESCOMP/CTSM/blob/master/src/biogeophys/UrbanParamsType.F90).
-- [SourceMods_roughness_sensitivity_S2](./6_sourcemods/SourceMods_roughness_sensitivity_S2): modified CTSM5.2.X code for using [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)’s method.
-- [SouceMods_roughness_sensitivity_S3](./6_sourcemods/SourceMods_roughness_sensitivity_S3): modified CTSM5.2.X code for using [Kent et al. (2017)](https://doi.org/10.1016/j.jweia.2017.07.016)'s method.
+- [SourceMods_for_UrbanPLUMBER](./6_sourcemods/SourceMods_for_UrbanPLUMBER/): modified [release-clm5.0.34](https://github.com/ESCOMP/CTSM/tree/release-clm5.0.34) code for participating Urban-PLUMBER.
+- [SourceMods_def](./6_sourcemods/SourceMods_def): modified [ctsm5.1.dev166](https://github.com/ESCOMP/CTSM/tree/ctsm5.1.dev166) code for default surface input.
+- [SourceMods_lcz](./6_sourcemods/SourceMods_lcz): modified [ctsm5.1.dev166](https://github.com/ESCOMP/CTSM/tree/ctsm5.1.dev166) code for LCZ-based surface input.
+- [SourceMods_roughness_sensitivity_S1](./6_sourcemods/SourceMods_roughness_sensitivity_S1/): modified [ctsm5.1.dev166](https://github.com/ESCOMP/CTSM/tree/ctsm5.1.dev166) code for [CLMU’s default method of roughness length calculation](https://github.com/ESCOMP/CTSM/blob/master/src/biogeophys/UrbanParamsType.F90).
+- [SourceMods_roughness_sensitivity_S2](./6_sourcemods/SourceMods_roughness_sensitivity_S2): modified [ctsm5.1.dev166](https://github.com/ESCOMP/CTSM/tree/ctsm5.1.dev166) code for using [Kanda et al. (2013)](https://doi.org/10.1007/s10546-013-9818-x)’s method.
+- [SouceMods_roughness_sensitivity_S3](./6_sourcemods/SourceMods_roughness_sensitivity_S3): modified [ctsm5.1.dev166](https://github.com/ESCOMP/CTSM/tree/ctsm5.1.dev166) code for using [Kent et al. (2017)](https://doi.org/10.1016/j.jweia.2017.07.016)'s method.
 
 The scripts listed below modify the source code to use several parameters provided by Urban-PLUMBER. Lines between **!KO** are modified by [K. W. O.](https://staff.ucar.edu/users/oleson) while **!YS** by [Y. S.](https://github.com/YuanSun-UoM).
 
